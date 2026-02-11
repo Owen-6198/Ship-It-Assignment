@@ -1,4 +1,4 @@
 -name: Build Step
 run: echo "building..."
 -name: Test Step
-run: echo "running tests..."
+run: exit 1
