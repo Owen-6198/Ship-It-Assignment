@@ -14,5 +14,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run artifact check
-        shell: cmd
         run: scripts\check_artifact.cmd
+        shell: cmd
